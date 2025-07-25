@@ -23,6 +23,7 @@ p{
     justify-content: center;
     font-weight: 800;
     margin-bottom: 50px;
+    box-shadow: 0 0 25px red;
 }
 
 .second{
@@ -31,4 +32,36 @@ p{
     align-items: center;
     justify-content: center;
     font-weight: 800;
+    box-shadow: 0 0 25px red;
+}
+
+.click{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 7rem;
+    height: 2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 0 20px white;
+
+}
+
+.intro{
+    text-align: center;
+    color: purple;
+    text-decoration: solid;
+    
+}
+
+.intro-para{
+    background-color: black;
+    text-align: justify;
+
+}
+
+#footer-section{
+    text-align: left;
 }
